@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "name": "package1",
+  "version": "0.0.0",
+  "scripts": {
+    "compile": "yarn common:compile"
+  },
+  "dependencies": {
+    "package2": "workspace:packages/package2"
+  }
+}

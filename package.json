@@ -1,0 +1,20 @@
+{
+  "name": "enum-intellij-example",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "compile": "tsc -b --pretty",
+    "common:compile": "cd $INIT_CWD && tsc"
+  },
+  "devDependencies": {
+    "typescript": "4.7.4"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/package1",
+      "packages/package2"
+    ]
+  },
+  "packageManager": "yarn@3.2.1"
+}
