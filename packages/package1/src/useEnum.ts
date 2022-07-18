@@ -1,4 +1,4 @@
-import { Foo } from "package2";
+import { Foo } from "package2/dist";
 
 function getX(): Foo {
   throw new Error()
@@ -7,5 +7,5 @@ function getX(): Foo {
 const x: Foo = getX()
 
 switch(x) {
-  
+  // no autocompletes on x.
 }
