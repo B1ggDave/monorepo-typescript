@@ -1,7 +1,11 @@
-// import { Foo } from "package2/enum";
-//
-// const x: Foo
-//
-// switch(x) {
-//
-// }
+import { Foo } from "package2";
+
+function getX(): Foo {
+  throw new Error()
+}
+
+const x: Foo = getX()
+
+switch(x) {
+  
+}
