@@ -1,5 +1,5 @@
 {
-  "name": "enum-intellij-example",
+  "name": "monorepo-typescript",
   "version": "1.0.0",
   "license": "MIT",
   "private": true,
@@ -10,11 +10,8 @@
   "devDependencies": {
     "typescript": "4.7.4"
   },
-  "workspaces": {
-    "packages": [
-      "packages/package1",
-      "packages/package2"
-    ]
-  },
-  "packageManager": "yarn@3.2.1"
+  "workspaces": [
+    "packages/package1",
+    "packages/package2"
+  ]
 }
